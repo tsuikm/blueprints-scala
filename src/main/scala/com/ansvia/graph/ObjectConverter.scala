@@ -22,7 +22,7 @@ object ObjectConverter extends Slf4jLogger {
      * the serialized case class that will be verified
      * in deserialization
      */
-    val CLASS_PROPERTY_NAME = "_class_"
+    val CLASS_PROPERTY_NAME = "className"
 
     /**
      * serializes a given case class into a Node instance
